@@ -1,6 +1,9 @@
+var github = "https://github.com/vscimento";
+var hm = "https://hidden-nightmares.webflow.io/";
+
 whois = [
   "<br>",
-  "Hello, i am Cimento",
+  "Hello, i am Cimento. All I do is copy (not steal) artwork from others.",
   "<br>"
 ];
 
@@ -12,14 +15,13 @@ whoami = [
 
 social = [
   "<br>",
-  
+  'github         <a href="' + github + '" target="_blank">github/vscimento' + "</a>",
   "<br>"
-];
-
+]
 
 projects = [
   "<br>",
-  
+  'Hidden Nightmares         <a href="' + hm + '" target="_blank">hidden-nightmares.webflow.io' + "</a>",
   "<br>"
 ];
 
@@ -27,8 +29,8 @@ help = [
   "<br>",
   '<span class="command">whois</span>          Who is Cimento?',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">social</span>         Display social networks',
   '<span class="command">projects</span>       View coding projects',
+  '<span class="command">social</span>         Display social networks',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">clear</span>          Clear terminal',
